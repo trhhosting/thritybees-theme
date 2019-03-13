@@ -35,16 +35,24 @@ $font-size-h6: $font-size-base;                // ~14px (default: 12px)
 
 // @TODO Overwrite theses variables to customize the colors of Bootstrap:
 // @TODO Overwrite theses variables to customize the colors of Bootstrap:
+.dark-primary-color    { background: #512DA8; }
+.default-primary-color { background: #673AB7; }
+.light-primary-color   { background: #D1C4E9; }
+.text-primary-color    { color: #FFFFFF; }
+.accent-color          { background: #4CAF50; }
+.primary-text-color    { color: #212121; }
+.secondary-text-color  { color: #757575; }
+.divider-color         { border-color: #BDBDBD; }
 
 // @see themes/community-theme-default/sass/vendor/bootstrap/bootstrap/_variables.scss
-$brand-primary:  darken(#fad629, 100%) !default; // #337ab7
-$btn-primary-color:  #fad629 !default;
-$brand-success:  #fad629;
-$bc-header-color: #fad629;
-$navbar-default-brand-color: #fad629;
-$navbar-inverse-link-color: #fad629;
-$navbar-default-color: #fad629;
-$navbar-inverse-color: #fad629;
+$brand-primary:  darken(#512DA8, 100%) !default; // #337ab7
+$btn-primary-color:  #673AB7 !default;
+$brand-success: #4CAF50;
+$bc-header-color: $brand-primary;
+$navbar-default-brand-color: $brand-primary;
+$navbar-inverse-link-color: $brand-primary;
+$navbar-default-color: $brand-primary;
+$navbar-inverse-color: $brand-primary;
 $btn-success-color: #000;
 
   // $brand-info:     #5bc0de;
